@@ -12,4 +12,7 @@
             $('.nav').removeClass('active-n');
         }
     })
+
+
+    
 });

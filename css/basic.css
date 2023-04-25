@@ -2,12 +2,19 @@
   --container-big: 1600px;
   --container-small: 1080px;
   --basic-space: 15px;
+  --scrollbar-width: 16px;
   --color-pink: #f0145a;
   --color-blue: #24a3ff;
   --color-dark-blue: #323264;
   --color-grey: #b3b3ba;
   --color-light-grey: #f5f5fa;
   --color-middle-gray: #e6e6f0;
+  --bg-gradiend-dark: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
 }
 
 body {
