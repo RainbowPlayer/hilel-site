@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
     <title>Document</title>
@@ -139,32 +140,32 @@
             <div class="container">
                 <div class="ss-servises-block">
                     <div class="ss-selection">
-                        <button class="selection-button ss-active" id="consistent">Consistent</button>
-                        <button class="selection-button" id="customer">Customer oriented</button>
-                        <button class="selection-button" id="innovative">Innovative</button>
-                        <button class="selection-button" id="business">Business oriented</button>
+                        <button class="selection-button ss-active" data-target="consistent">Consistent</button>
+                        <button class="selection-button" data-target="customer">Customer oriented</button>
+                        <button class="selection-button" data-target="innovative">Innovative</button>
+                        <button class="selection-button" data-target="business">Business oriented</button>
                     </div>
                     <hr class="line-ss">
                     <div class="ss-text">
-                        <div class="consistent-text ss-active-text">
+                        <div class="ss-tx consistent-text ss-active-text" id="consistent">
                             <h2>We turn the idea of legal services</h2>
                             <p>Consolidating many years of experience and practice, the company's lawyers accompany
                                 complex projects and achieve a number of important decisions for the industry. Many of
                                 them form the practice of applying the law of the sea in Ukraine.</p>
                         </div>
-                        <div class="customer-text">
+                        <div class="ss-tx customer-text" id="customer">
                             <h2>Lorem ipsum dolor sit.</h2>
                             <p>Consolidating many years of experience and practice, the company's lawyers accompany
                                 complex projects and achieve a number of important decisions for the industry. Many of
                                 them form the practice of applying the law of the sea in Ukraine.</p>
                         </div>
-                        <div class="innovative-text">
+                        <div class="ss-tx innovative-text" id="innovative">
                             <h2>Turn us if you can</h2>
                             <p>Consolidating many years of experience and practice, the company's lawyers accompany
                                 complex projects and achieve a number of important decisions for the industry. Many of
                                 them form the practice of applying the law of the sea in Ukraine.</p>
                         </div>
-                        <div class="business-text">
+                        <div class="ss-tx business-text" id="business">
                             <h2>Last section on this</h2>
                             <p>Consolidating many years of experience and practice, the company's lawyers accompany
                                 complex projects and achieve a number of important decisions for the industry. Many of
@@ -244,7 +245,41 @@
             </div>
         </section>
     </div>
-    <section class="fourth-section"></section>
+    <section class="fourth-section">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/human/alex.jpg" alt="alex">
+                        <div class="swiper-fs-text">
+                            <h3>
+                                <a href="#">КОМАНДА <svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </h3>
+                            <h2>Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу,
+                                навіть у ситуаціях, коли більшість безсилі.
+                            </h2>
+                        </div>
+                        <div class="swiper-s-text">
+                            <h4>Олександр Олександровський</h4>
+                            <p>Керуючий партнер</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/human/evgen.jpg" alt="evgen">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/img/human/julia.jpg" alt="julia">
+
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="container">
             <div class="footer-block">
@@ -273,6 +308,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/jquery-3.6.4.js"></script>
     <script src="./js/script.js"></script>
 </body>
