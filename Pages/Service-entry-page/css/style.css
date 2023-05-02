@@ -278,8 +278,7 @@ body.gradient .header {
 }
 
 .discription-text {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
+  display: flex;
 }
 
 /*------THIRD-SECTION-------------------------------------------------------------------*/
