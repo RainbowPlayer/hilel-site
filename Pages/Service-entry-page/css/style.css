@@ -21,7 +21,7 @@ header .container {
 }
 
 .nav-dot {
-  background-color: var(--color-grey);
+  background-color: #ffffff;
   width: 6px;
   height: 6px;
   border-radius: 6px;
@@ -82,6 +82,10 @@ header .container {
   fill: var(--color-pink);
 }
 
+.nav-facebook > path {
+  fill: #ffffff;
+}
+
 .nav-tel {
   order: 1;
   font-weight: 700;
@@ -137,7 +141,7 @@ header .container {
 }
 
 .nav > a {
-  background-color: var(--color-light-grey);
+  background-color: #f5f5fa;
   padding-top: 7px;
   padding-bottom: 7px;
   max-width: 359px;
@@ -239,7 +243,7 @@ body.gradient .header {
   border-radius: 0px 0px 12px 12px;
   position: relative;
   color: #ffffff;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 /*------FIRST-SECTION-------------------------------------------------------------------*/
@@ -323,14 +327,16 @@ body.gradient .header {
 
 .popup-block-p2-list {
   margin-left: 19px;
-  display: grid;
-  gap: 15px;
   font-size: 18px;
   line-height: 26px;
 }
 
 .popup-block-p2-list > li::marker {
   color: #f0145a;
+}
+
+.popup-block-p2-list > li {
+  margin-bottom: 15px;
 }
 
 /*------THIRD-SECTION-------------------------------------------------------------------*/
