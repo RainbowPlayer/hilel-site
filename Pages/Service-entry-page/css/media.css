@@ -149,69 +149,19 @@
 
   /*------HEADER-------------------------------------------------------------------*/
 
-  .first-section {
-    padding-bottom: 60px;
+  .third-section {
+    padding-top: 280px;
   }
 
-  /*------FIRST-SECTION-------------------------------------------------------------------*/
-
-  .ss-servises-block {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    gap: 60px;
+  .line-hr-popup {
+    margin-top: 30px;
   }
 
-  .ss-selection {
-    margin-right: -60px;
-    margin-left: -60px;
-    padding-right: 60px;
-    padding-left: 60px;
-  }
-
-  .selection-button {
-    font-size: 38px;
-    line-height: 46px;
-  }
-
-  .ss-tx > h2 {
-    font-size: 30px;
-    line-height: 37px;
-  }
-
-  /*------SECOND-SECTION-------------------------------------------------------------------*/
-
-  .ts-title {
-    margin-bottom: 60px;
-  }
-
-  .ts-card-block {
+  .popup-block-p2-list {
     grid-template-columns: repeat(2, 1fr);
-    gap: 60px;
   }
 
   /*------THIRD-SECTION-------------------------------------------------------------------*/
-
-  .fourth-section {
-    margin-top: 60px;
-  }
-
-  .container-swiper {
-    max-width: calc(100vw - var(--basic-space) * 8);
-  }
-
-  /*------FOURTH-SECTION-------------------------------------------------------------------*/
-
-  .logo-block-fifth {
-    max-height: initial;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-
-  .logo-item > img {
-    max-width: 100%;
-  }
-
-  /*------FIFTH-SECTION-------------------------------------------------------------------*/
 
   .title-six > h2 {
     font-size: 38px;

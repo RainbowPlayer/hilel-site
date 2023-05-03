@@ -269,16 +269,68 @@ body.gradient .header {
   max-width: 100px;
 }
 
-.popup-dot {
-  background: #f0145a;
-  width: 6px;
-  height: 6px;
-  border-radius: 6px;
-  display: inline-block;
+.popup-block-p1 > h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.discription-text {
+.popup-block-p1 > p {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.popup {
+  border: none;
+  background-color: var(--color-blue);
+  color: white;
+  padding: 18px 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.popup:hover {
+  background-color: #0085ff;
+}
+
+.popup:active {
+  background-color: #006ccf;
+}
+
+.line-hr-popup {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.popup-block-p2 {
   display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.popup-block-p2 > h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.popup-block-p2-list {
+  margin-left: 19px;
+  display: grid;
+  gap: 15px;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.popup-block-p2-list > li::marker {
+  color: #f0145a;
 }
 
 /*------THIRD-SECTION-------------------------------------------------------------------*/
@@ -286,6 +338,7 @@ body.gradient .header {
 .section-six {
   padding-top: 30px;
   background: var(--color-light-grey);
+  border-radius: 12px 12px 0px 0px;
 }
 
 .title-six {
@@ -561,13 +614,19 @@ input:focus {
   color: transparent;
   border: none;
   background-color: transparent;
+  cursor: pointer;
+}
+
+.close-popup:hover {
+  background: #e6e6f0;
+  border-radius: 8px;
 }
 
 .popup-title {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   gap: 40px;
+  justify-content: space-between;
 }
