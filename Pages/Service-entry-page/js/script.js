@@ -14,8 +14,6 @@
     })
 
     $('.popup').click(function () {
-      // console.log($('.popup-wrapper'));
-    
       $('.popup-wrapper').addClass('active-p');
     
       if ($('body').css('overflow') === 'hidden') {
