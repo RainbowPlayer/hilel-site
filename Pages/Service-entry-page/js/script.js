@@ -1,4 +1,4 @@
-    $(document).ready(function(){
+$(document).ready(function(){
 
     $('.hide_check').click(function(){
         $('.nav').addClass('active-n');
@@ -26,6 +26,7 @@
     $('.close-popup').click(function(){
       console.log("our target");
       $('.popup-wrapper').removeClass('active-p');
+      $('body').css('overflow', '');
       
   })
 });
